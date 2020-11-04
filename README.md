@@ -17,3 +17,14 @@ apiSecret=YOUR_ZOOM_SECRET_KEY
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+### To join the meeting, Go to
+
+http://localhost:3000/?id=<meeting_id>&password=<meeting_password>&userName=your_name&userEmail=your_email
+
+> it will join you as an attendee, only when host will admit the attendee to join
+
+#### If you are the host
+In `App.js` change `role` in `meetConfig` to `1`
+
+

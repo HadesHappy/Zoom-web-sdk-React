@@ -6,7 +6,7 @@ let meetConfig = {
   apiKey: apiKeys.apiKey,
   userName: "Attendee",
   userEmail: "attendee@example.com", // must be the attendee email address
-  role: 0,
+  role: 0, // change it to 1 for host
 };
 
 function App() {
